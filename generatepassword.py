@@ -14,10 +14,8 @@ passGen = ""
 try:
     passLength = int(input("Password character length (Max: 70): ")) ## User input to determine password length ##
 except ValueError:
-    #print("Only numerical values")
     raise SystemExit("Only numerical values")
 except NameError:
-    #print("Only numerical values")
     raise SystemExit("Only numerical values")
 
 
